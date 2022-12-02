@@ -44,7 +44,7 @@ class _QuizPageState extends State<QuizPage> {
           context: context,
           title: 'Finished!',
           desc:
-              'You\'ve reached the end of the quiz You have $rightAnswerNumber right answer.',
+              'You\'ve reached the end of the quiz You have  $rightAnswerNumber right answer.',
         ).show();
         quizBrain.reset();
         scoreKeeper = [];
